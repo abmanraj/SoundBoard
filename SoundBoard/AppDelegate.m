@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MVYSideMenuController.h"
+#import "MVYMenuViewController.h"
+#import "MVYContentViewController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    MVYMenuViewController *menuVC = [[MVYMenuViewController alloc] initWithNibName:@"MVYMenuViewController" bundle:nil];
+    MVYContentViewController *contentVC = [[MVYContentViewController alloc] initWithNibName:@"MVYContentViewController" bundle:nil];
+    UINavigationController *contentNavigationController = [[UINavigationController alloc] initWithRootViewController:contentVC];
+    MVYSideMenuOptions *options = [[MVYSideMenuOptions alloc] init];
+    options.contentViewScale = 1.0;
+    options.contentViewOpacity = 0.05;
+    options.shadowOpacity = 0.0;
+    MVYSideMenuController *sideMenuController = [[MVYSideMenuController alloc] initWithMenuViewController:menuVC
+                                                                                    contentViewController:contentNavigationController
+                                                                                                  options:options];
+    sideMenuController.menuFrame = CGRectMake(0, 64.0, 220.0, self.window.bounds.size.height - 64.0);
+    
+    self.window.rootViewController = sideMenuController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

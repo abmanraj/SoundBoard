@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DD328C9559011AADE69458 /* libPods-SoundBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 736CF200068ECEF0954B3D35 /* libPods-SoundBoard.a */; };
+		5205C9231EA617D500D7B8AD /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9221EA617D500D7B8AD /* menu_icon@2x.png */; };
+		5205C9251EA6209700D7B8AD /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9241EA6209700D7B8AD /* images.jpeg */; };
+		5205C9271EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9261EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg */; };
+		5205C92A1EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9291EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 */; };
 		524D84E81EA4EB4F006A44BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D84E71EA4EB4F006A44BA /* main.m */; };
 		524D84EB1EA4EB4F006A44BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D84EA1EA4EB4F006A44BA /* AppDelegate.m */; };
 		524D84EE1EA4EB4F006A44BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D84ED1EA4EB4F006A44BA /* ViewController.m */; };
@@ -15,6 +20,12 @@
 		524D84F61EA4EB4F006A44BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D84F41EA4EB4F006A44BA /* LaunchScreen.storyboard */; };
 		524D85011EA4EB4F006A44BA /* SoundBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D85001EA4EB4F006A44BA /* SoundBoardTests.m */; };
 		524D850C1EA4EB4F006A44BA /* SoundBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D850B1EA4EB4F006A44BA /* SoundBoardUITests.m */; };
+		52FF84F31EA6105200C64F3D /* MVYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF84EE1EA6105200C64F3D /* MVYMenuViewController.m */; };
+		52FF84F41EA6105200C64F3D /* MVYMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FF84EF1EA6105200C64F3D /* MVYMenuViewController.xib */; };
+		52FF84F51EA6105200C64F3D /* MVYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF84F11EA6105200C64F3D /* MVYContentViewController.m */; };
+		52FF84F61EA6105200C64F3D /* MVYContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FF84F21EA6105200C64F3D /* MVYContentViewController.xib */; };
+		8BD6F56C37277220B24C1A88 /* libPods-SoundBoardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4FA5134C27ABBA9B9D0C2A /* libPods-SoundBoardUITests.a */; };
+		C8493E8475769871172D67F7 /* libPods-SoundBoardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946ADF05A8009C9D4CD98D17 /* libPods-SoundBoardTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4FA5134C27ABBA9B9D0C2A /* libPods-SoundBoardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundBoardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4042665B876E65FD7F1C680D /* Pods-SoundBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoardUITests/Pods-SoundBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5205C9221EA617D500D7B8AD /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		5205C9241EA6209700D7B8AD /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		5205C9261EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "high-quality-wallpaper-4-610x381.jpg"; sourceTree = "<group>"; };
+		5205C9291EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3"; sourceTree = "<group>"; };
 		524D84E31EA4EB4F006A44BA /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D84E71EA4EB4F006A44BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		524D84E91EA4EB4F006A44BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,19 @@
 		524D85071EA4EB4F006A44BA /* SoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D850B1EA4EB4F006A44BA /* SoundBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundBoardUITests.m; sourceTree = "<group>"; };
 		524D850D1EA4EB4F006A44BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FF84ED1EA6105200C64F3D /* MVYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYMenuViewController.h; sourceTree = "<group>"; };
+		52FF84EE1EA6105200C64F3D /* MVYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYMenuViewController.m; sourceTree = "<group>"; };
+		52FF84EF1EA6105200C64F3D /* MVYMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVYMenuViewController.xib; sourceTree = "<group>"; };
+		52FF84F01EA6105200C64F3D /* MVYContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYContentViewController.h; sourceTree = "<group>"; };
+		52FF84F11EA6105200C64F3D /* MVYContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYContentViewController.m; sourceTree = "<group>"; };
+		52FF84F21EA6105200C64F3D /* MVYContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVYContentViewController.xib; sourceTree = "<group>"; };
+		5C5543319C288A80C9A8DCAA /* Pods-SoundBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoardTests/Pods-SoundBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		736CF200068ECEF0954B3D35 /* libPods-SoundBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946ADF05A8009C9D4CD98D17 /* libPods-SoundBoardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundBoardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598741B87700C0326F4E83B /* Pods-SoundBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoard/Pods-SoundBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		B6681EFC0A0C7C87F6812DFF /* Pods-SoundBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoardTests/Pods-SoundBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7AA721CAFC13EBF1E1E3FCC /* Pods-SoundBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoardUITests/Pods-SoundBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB91364F6DB11ABC8D5743DF /* Pods-SoundBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoard/Pods-SoundBoard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DD328C9559011AADE69458 /* libPods-SoundBoard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8493E8475769871172D67F7 /* libPods-SoundBoardTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD6F56C37277220B24C1A88 /* libPods-SoundBoardUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,8 @@
 				524D84FF1EA4EB4F006A44BA /* SoundBoardTests */,
 				524D850A1EA4EB4F006A44BA /* SoundBoardUITests */,
 				524D84E41EA4EB4F006A44BA /* Products */,
+				DA054BCDEF3556854AE0DF02 /* Pods */,
+				6DA2525F707730B5E44A7BC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +136,21 @@
 		524D84E51EA4EB4F006A44BA /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				52FF84ED1EA6105200C64F3D /* MVYMenuViewController.h */,
+				52FF84EE1EA6105200C64F3D /* MVYMenuViewController.m */,
+				52FF84EF1EA6105200C64F3D /* MVYMenuViewController.xib */,
+				52FF84F01EA6105200C64F3D /* MVYContentViewController.h */,
+				52FF84F11EA6105200C64F3D /* MVYContentViewController.m */,
+				52FF84F21EA6105200C64F3D /* MVYContentViewController.xib */,
+				5205C9241EA6209700D7B8AD /* images.jpeg */,
+				5205C9291EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 */,
 				524D84E91EA4EB4F006A44BA /* AppDelegate.h */,
 				524D84EA1EA4EB4F006A44BA /* AppDelegate.m */,
 				524D84EC1EA4EB4F006A44BA /* ViewController.h */,
 				524D84ED1EA4EB4F006A44BA /* ViewController.m */,
 				524D84EF1EA4EB4F006A44BA /* Main.storyboard */,
+				5205C9221EA617D500D7B8AD /* menu_icon@2x.png */,
+				5205C9261EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg */,
 				524D84F21EA4EB4F006A44BA /* Assets.xcassets */,
 				524D84F41EA4EB4F006A44BA /* LaunchScreen.storyboard */,
 				524D84F71EA4EB4F006A44BA /* Info.plist */,
@@ -140,6 +185,29 @@
 			path = SoundBoardUITests;
 			sourceTree = "<group>";
 		};
+		6DA2525F707730B5E44A7BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				736CF200068ECEF0954B3D35 /* libPods-SoundBoard.a */,
+				946ADF05A8009C9D4CD98D17 /* libPods-SoundBoardTests.a */,
+				1B4FA5134C27ABBA9B9D0C2A /* libPods-SoundBoardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA054BCDEF3556854AE0DF02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B598741B87700C0326F4E83B /* Pods-SoundBoard.debug.xcconfig */,
+				FB91364F6DB11ABC8D5743DF /* Pods-SoundBoard.release.xcconfig */,
+				B6681EFC0A0C7C87F6812DFF /* Pods-SoundBoardTests.debug.xcconfig */,
+				5C5543319C288A80C9A8DCAA /* Pods-SoundBoardTests.release.xcconfig */,
+				F7AA721CAFC13EBF1E1E3FCC /* Pods-SoundBoardUITests.debug.xcconfig */,
+				4042665B876E65FD7F1C680D /* Pods-SoundBoardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524D85101EA4EB4F006A44BA /* Build configuration list for PBXNativeTarget "SoundBoard" */;
 			buildPhases = (
+				AA8204E2B988596F6675EE24 /* [CP] Check Pods Manifest.lock */,
 				524D84DF1EA4EB4F006A44BA /* Sources */,
 				524D84E01EA4EB4F006A44BA /* Frameworks */,
 				524D84E11EA4EB4F006A44BA /* Resources */,
+				A0C5A126BC0CB014C4E62BA6 /* [CP] Embed Pods Frameworks */,
+				A286B2360EDE588DBC48542E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524D85131EA4EB4F006A44BA /* Build configuration list for PBXNativeTarget "SoundBoardTests" */;
 			buildPhases = (
+				A01BA1B12B1D13C53918CB17 /* [CP] Check Pods Manifest.lock */,
 				524D84F81EA4EB4F006A44BA /* Sources */,
 				524D84F91EA4EB4F006A44BA /* Frameworks */,
 				524D84FA1EA4EB4F006A44BA /* Resources */,
+				5F6A94C63A23B5B6B62D317C /* [CP] Embed Pods Frameworks */,
+				DC8B721D65DBEC47A5C9284A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524D85161EA4EB4F006A44BA /* Build configuration list for PBXNativeTarget "SoundBoardUITests" */;
 			buildPhases = (
+				2E5F98305878B8760FD5900F /* [CP] Check Pods Manifest.lock */,
 				524D85031EA4EB4F006A44BA /* Sources */,
 				524D85041EA4EB4F006A44BA /* Frameworks */,
 				524D85051EA4EB4F006A44BA /* Resources */,
+				E63C5159CE4B19010EDBB416 /* [CP] Embed Pods Frameworks */,
+				AE8BD73FF69113644CDD0C12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +328,13 @@
 			files = (
 				524D84F61EA4EB4F006A44BA /* LaunchScreen.storyboard in Resources */,
 				524D84F31EA4EB4F006A44BA /* Assets.xcassets in Resources */,
+				5205C9231EA617D500D7B8AD /* menu_icon@2x.png in Resources */,
+				5205C9251EA6209700D7B8AD /* images.jpeg in Resources */,
+				52FF84F41EA6105200C64F3D /* MVYMenuViewController.xib in Resources */,
 				524D84F11EA4EB4F006A44BA /* Main.storyboard in Resources */,
+				5205C92A1EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 in Resources */,
+				52FF84F61EA6105200C64F3D /* MVYContentViewController.xib in Resources */,
+				5205C9271EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +354,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E5F98305878B8760FD5900F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6A94C63A23B5B6B62D317C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundBoardTests/Pods-SoundBoardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01BA1B12B1D13C53918CB17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C5A126BC0CB014C4E62BA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundBoard/Pods-SoundBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A286B2360EDE588DBC48542E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundBoard/Pods-SoundBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8204E2B988596F6675EE24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8BD73FF69113644CDD0C12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundBoardUITests/Pods-SoundBoardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8B721D65DBEC47A5C9284A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundBoardTests/Pods-SoundBoardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63C5159CE4B19010EDBB416 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundBoardUITests/Pods-SoundBoardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		524D84DF1EA4EB4F006A44BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +499,8 @@
 			files = (
 				524D84EE1EA4EB4F006A44BA /* ViewController.m in Sources */,
 				524D84EB1EA4EB4F006A44BA /* AppDelegate.m in Sources */,
+				52FF84F51EA6105200C64F3D /* MVYContentViewController.m in Sources */,
+				52FF84F31EA6105200C64F3D /* MVYMenuViewController.m in Sources */,
 				524D84E81EA4EB4F006A44BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +640,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -427,6 +650,7 @@
 		};
 		524D85111EA4EB4F006A44BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B598741B87700C0326F4E83B /* Pods-SoundBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 258TG7ESK9;
@@ -439,6 +663,7 @@
 		};
 		524D85121EA4EB4F006A44BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB91364F6DB11ABC8D5743DF /* Pods-SoundBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 258TG7ESK9;
@@ -451,6 +676,7 @@
 		};
 		524D85141EA4EB4F006A44BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6681EFC0A0C7C87F6812DFF /* Pods-SoundBoardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 258TG7ESK9;
@@ -464,6 +690,7 @@
 		};
 		524D85151EA4EB4F006A44BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5543319C288A80C9A8DCAA /* Pods-SoundBoardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 258TG7ESK9;
@@ -477,6 +704,7 @@
 		};
 		524D85171EA4EB4F006A44BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AA721CAFC13EBF1E1E3FCC /* Pods-SoundBoardUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 258TG7ESK9;
 				INFOPLIST_FILE = SoundBoardUITests/Info.plist;
@@ -489,6 +717,7 @@
 		};
 		524D85181EA4EB4F006A44BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4042665B876E65FD7F1C680D /* Pods-SoundBoardUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 258TG7ESK9;
 				INFOPLIST_FILE = SoundBoardUITests/Info.plist;
@@ -518,6 +747,7 @@
 				524D85121EA4EB4F006A44BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524D85131EA4EB4F006A44BA /* Build configuration list for PBXNativeTarget "SoundBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +756,7 @@
 				524D85151EA4EB4F006A44BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524D85161EA4EB4F006A44BA /* Build configuration list for PBXNativeTarget "SoundBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +765,7 @@
 				524D85181EA4EB4F006A44BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
