@@ -8,7 +8,7 @@
 
 #import "MVYMenuViewController.h"
 #import "MVYSideMenuController.h"
-#import "MVYContentViewController.h"
+
 
 @interface MVYMenuViewController ()
 
@@ -77,9 +77,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-	MVYContentViewController *contentVC = [[MVYContentViewController alloc] initWithNibName:@"MVYContentViewController" bundle:nil];
-	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:contentVC];
-	[[self sideMenuController] changeContentViewController:navigationController closeMenu:YES];
+//	MVYContentViewController *contentVC = [[MVYContentViewController alloc] initWithNibName:@"MVYContentViewController" bundle:nil];
+//	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:contentVC];
+//	[[self sideMenuController] changeContentViewController:navigationController closeMenu:YES];
 }
 
 

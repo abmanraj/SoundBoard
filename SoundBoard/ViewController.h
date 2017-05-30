@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#include <EZAudio/EZAudio.h>
+@interface ViewController : UIViewController<EZAudioPlayerDelegate>
+@property (strong, nonatomic) IBOutlet UIButton *btnPlay;
 
+//------------------------------------------------------------------------------
 
+//
+// An EZAudioPlayer that will be used for playback
+//
+@property (nonatomic, strong) EZAudioPlayer *player;
+
+@property (strong, nonatomic) IBOutlet UITableView *tablesound;
+- (IBAction)play:(id)sender;
+@property (nonatomic, strong) EZAudioFile *audioFile;
 @end
 

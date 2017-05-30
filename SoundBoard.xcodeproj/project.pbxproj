@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		33DD328C9559011AADE69458 /* libPods-SoundBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 736CF200068ECEF0954B3D35 /* libPods-SoundBoard.a */; };
+		52058D0A1EA9F36A00F48E03 /* arabick_birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52058D091EA9F36A00F48E03 /* arabick_birds.mp3 */; };
 		5205C9231EA617D500D7B8AD /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9221EA617D500D7B8AD /* menu_icon@2x.png */; };
 		5205C9251EA6209700D7B8AD /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9241EA6209700D7B8AD /* images.jpeg */; };
 		5205C9271EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9261EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg */; };
 		5205C92A1EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5205C9291EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 */; };
+		523D90B21EAA133A00220375 /* Dhoom_Sexy_Ringtone_-_Dhoom_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D90B01EAA133A00220375 /* Dhoom_Sexy_Ringtone_-_Dhoom_2.mp3 */; };
+		523D90B31EAA133A00220375 /* Maine_Payal_Hai_Chankai_-_Falguni_Pathak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D90B11EAA133A00220375 /* Maine_Payal_Hai_Chankai_-_Falguni_Pathak.mp3 */; };
 		524D84E81EA4EB4F006A44BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D84E71EA4EB4F006A44BA /* main.m */; };
 		524D84EB1EA4EB4F006A44BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D84EA1EA4EB4F006A44BA /* AppDelegate.m */; };
 		524D84EE1EA4EB4F006A44BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D84ED1EA4EB4F006A44BA /* ViewController.m */; };
@@ -20,10 +23,9 @@
 		524D84F61EA4EB4F006A44BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D84F41EA4EB4F006A44BA /* LaunchScreen.storyboard */; };
 		524D85011EA4EB4F006A44BA /* SoundBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D85001EA4EB4F006A44BA /* SoundBoardTests.m */; };
 		524D850C1EA4EB4F006A44BA /* SoundBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D850B1EA4EB4F006A44BA /* SoundBoardUITests.m */; };
+		52F798111EA9FFF60021D754 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F798101EA9FFF60021D754 /* TableViewCell.m */; };
 		52FF84F31EA6105200C64F3D /* MVYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF84EE1EA6105200C64F3D /* MVYMenuViewController.m */; };
 		52FF84F41EA6105200C64F3D /* MVYMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FF84EF1EA6105200C64F3D /* MVYMenuViewController.xib */; };
-		52FF84F51EA6105200C64F3D /* MVYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FF84F11EA6105200C64F3D /* MVYContentViewController.m */; };
-		52FF84F61EA6105200C64F3D /* MVYContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FF84F21EA6105200C64F3D /* MVYContentViewController.xib */; };
 		8BD6F56C37277220B24C1A88 /* libPods-SoundBoardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4FA5134C27ABBA9B9D0C2A /* libPods-SoundBoardUITests.a */; };
 		C8493E8475769871172D67F7 /* libPods-SoundBoardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946ADF05A8009C9D4CD98D17 /* libPods-SoundBoardTests.a */; };
 /* End PBXBuildFile section */
@@ -48,10 +50,13 @@
 /* Begin PBXFileReference section */
 		1B4FA5134C27ABBA9B9D0C2A /* libPods-SoundBoardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundBoardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042665B876E65FD7F1C680D /* Pods-SoundBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoardUITests/Pods-SoundBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52058D091EA9F36A00F48E03 /* arabick_birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arabick_birds.mp3; sourceTree = "<group>"; };
 		5205C9221EA617D500D7B8AD /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
 		5205C9241EA6209700D7B8AD /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		5205C9261EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "high-quality-wallpaper-4-610x381.jpg"; sourceTree = "<group>"; };
 		5205C9291EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3"; sourceTree = "<group>"; };
+		523D90B01EAA133A00220375 /* Dhoom_Sexy_Ringtone_-_Dhoom_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dhoom_Sexy_Ringtone_-_Dhoom_2.mp3"; sourceTree = "<group>"; };
+		523D90B11EAA133A00220375 /* Maine_Payal_Hai_Chankai_-_Falguni_Pathak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maine_Payal_Hai_Chankai_-_Falguni_Pathak.mp3"; sourceTree = "<group>"; };
 		524D84E31EA4EB4F006A44BA /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D84E71EA4EB4F006A44BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		524D84E91EA4EB4F006A44BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,12 +73,11 @@
 		524D85071EA4EB4F006A44BA /* SoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D850B1EA4EB4F006A44BA /* SoundBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundBoardUITests.m; sourceTree = "<group>"; };
 		524D850D1EA4EB4F006A44BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F7980F1EA9FFF50021D754 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		52F798101EA9FFF60021D754 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		52FF84ED1EA6105200C64F3D /* MVYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYMenuViewController.h; sourceTree = "<group>"; };
 		52FF84EE1EA6105200C64F3D /* MVYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYMenuViewController.m; sourceTree = "<group>"; };
 		52FF84EF1EA6105200C64F3D /* MVYMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVYMenuViewController.xib; sourceTree = "<group>"; };
-		52FF84F01EA6105200C64F3D /* MVYContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYContentViewController.h; sourceTree = "<group>"; };
-		52FF84F11EA6105200C64F3D /* MVYContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYContentViewController.m; sourceTree = "<group>"; };
-		52FF84F21EA6105200C64F3D /* MVYContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVYContentViewController.xib; sourceTree = "<group>"; };
 		5C5543319C288A80C9A8DCAA /* Pods-SoundBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundBoardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundBoardTests/Pods-SoundBoardTests.release.xcconfig"; sourceTree = "<group>"; };
 		736CF200068ECEF0954B3D35 /* libPods-SoundBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946ADF05A8009C9D4CD98D17 /* libPods-SoundBoardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoundBoardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,15 +143,17 @@
 				52FF84ED1EA6105200C64F3D /* MVYMenuViewController.h */,
 				52FF84EE1EA6105200C64F3D /* MVYMenuViewController.m */,
 				52FF84EF1EA6105200C64F3D /* MVYMenuViewController.xib */,
-				52FF84F01EA6105200C64F3D /* MVYContentViewController.h */,
-				52FF84F11EA6105200C64F3D /* MVYContentViewController.m */,
-				52FF84F21EA6105200C64F3D /* MVYContentViewController.xib */,
 				5205C9241EA6209700D7B8AD /* images.jpeg */,
 				5205C9291EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 */,
+				52058D091EA9F36A00F48E03 /* arabick_birds.mp3 */,
 				524D84E91EA4EB4F006A44BA /* AppDelegate.h */,
 				524D84EA1EA4EB4F006A44BA /* AppDelegate.m */,
+				52F7980F1EA9FFF50021D754 /* TableViewCell.h */,
+				52F798101EA9FFF60021D754 /* TableViewCell.m */,
 				524D84EC1EA4EB4F006A44BA /* ViewController.h */,
 				524D84ED1EA4EB4F006A44BA /* ViewController.m */,
+				523D90B01EAA133A00220375 /* Dhoom_Sexy_Ringtone_-_Dhoom_2.mp3 */,
+				523D90B11EAA133A00220375 /* Maine_Payal_Hai_Chankai_-_Falguni_Pathak.mp3 */,
 				524D84EF1EA4EB4F006A44BA /* Main.storyboard */,
 				5205C9221EA617D500D7B8AD /* menu_icon@2x.png */,
 				5205C9261EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg */,
@@ -284,7 +290,7 @@
 				TargetAttributes = {
 					524D84E21EA4EB4F006A44BA = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 258TG7ESK9;
+						DevelopmentTeam = 7P4ZEH6D37;
 						ProvisioningStyle = Automatic;
 					};
 					524D84FB1EA4EB4F006A44BA = {
@@ -326,15 +332,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523D90B31EAA133A00220375 /* Maine_Payal_Hai_Chankai_-_Falguni_Pathak.mp3 in Resources */,
 				524D84F61EA4EB4F006A44BA /* LaunchScreen.storyboard in Resources */,
 				524D84F31EA4EB4F006A44BA /* Assets.xcassets in Resources */,
 				5205C9231EA617D500D7B8AD /* menu_icon@2x.png in Resources */,
 				5205C9251EA6209700D7B8AD /* images.jpeg in Resources */,
+				523D90B21EAA133A00220375 /* Dhoom_Sexy_Ringtone_-_Dhoom_2.mp3 in Resources */,
 				52FF84F41EA6105200C64F3D /* MVYMenuViewController.xib in Resources */,
 				524D84F11EA4EB4F006A44BA /* Main.storyboard in Resources */,
 				5205C92A1EA628F200D7B8AD /* Kaabil Hoon (Jubin Nautiyal) 320Kbps.mp3 in Resources */,
-				52FF84F61EA6105200C64F3D /* MVYContentViewController.xib in Resources */,
 				5205C9271EA623B500D7B8AD /* high-quality-wallpaper-4-610x381.jpg in Resources */,
+				52058D0A1EA9F36A00F48E03 /* arabick_birds.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,8 +506,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				524D84EE1EA4EB4F006A44BA /* ViewController.m in Sources */,
+				52F798111EA9FFF60021D754 /* TableViewCell.m in Sources */,
 				524D84EB1EA4EB4F006A44BA /* AppDelegate.m in Sources */,
-				52FF84F51EA6105200C64F3D /* MVYContentViewController.m in Sources */,
 				52FF84F31EA6105200C64F3D /* MVYMenuViewController.m in Sources */,
 				524D84E81EA4EB4F006A44BA /* main.m in Sources */,
 			);
@@ -597,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -640,7 +648,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -653,11 +661,12 @@
 			baseConfigurationReference = B598741B87700C0326F4E83B /* Pods-SoundBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 258TG7ESK9;
+				DEVELOPMENT_TEAM = 7P4ZEH6D37;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = agiletree.SoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -666,11 +675,12 @@
 			baseConfigurationReference = FB91364F6DB11ABC8D5743DF /* Pods-SoundBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 258TG7ESK9;
+				DEVELOPMENT_TEAM = 7P4ZEH6D37;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = agiletree.SoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
